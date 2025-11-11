@@ -1,0 +1,47 @@
+{
+    "manufacturer": "Yuto Nakamura",
+    "keyboard_name": "kaomoji_keyboard",
+    "maintainer": "Yuto Nakamura",
+    "development_board": "promicro",
+    "diode_direction": "ROW2COL",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false
+    },
+    "matrix_pins": {
+        "cols": ["D4", "C6", "D7", "E6", "B4", "B5"],
+        "rows": ["B3", "B2", "B6"]
+    },
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x7462",
+        "vid": "0x7065"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix":[0, 0], "x":0, "y":4},
+                {"matrix":[0, 1], "x":1.25, "y":3.25},
+                {"matrix":[0, 2], "x":2.75, "y":4},
+                {"matrix":[0, 3], "x":4.5, "y":4},
+                {"matrix":[0, 4], "x":6.25, "y":4},
+                {"matrix":[0, 5], "x":7.75, "y":3.75},
+                {"matrix":[1, 2], "x":3.25, "y":2},
+                {"matrix":[1, 3], "x":4.5, "y":2},
+                {"matrix":[1, 4], "x":5.75, "y":2},
+                {"matrix":[1, 5], "x":7.75, "y":2},
+                {"matrix":[2, 0], "x":0, "y":0},
+                {"matrix":[2, 1], "x":1.25, "y":0.75},
+                {"matrix":[2, 2], "x":2.75, "y":0},
+                {"matrix":[2, 3], "x":4.5, "y":0},
+                {"matrix":[2, 4], "x":6.25, "y":0},
+                {"matrix":[2, 5], "x":7.75, "y":0.25}
+            ]
+        }
+    }
+}
